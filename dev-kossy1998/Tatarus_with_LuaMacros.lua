@@ -1,7 +1,7 @@
 print('This is LuaMacros. Listing detected devices...');
 lmc_print_devices()
 lmc_device_set_name("Tatarus_main","DEVICE_CODE-1")
-lmc_device_set_name("Tatarus_stick","DEVICE_CODE-2")
+--lmc_device_set_name("Tatarus_stick","DEVICE_CODE-2")
 
 
 print('now logical name is assigned to game device...');
@@ -76,22 +76,22 @@ end
 )
 
 --Joystick on Tartarus Pro
-lmc_set_handler("Tatarus_stick",function(button,direction)
-  if (direction == 1) then return end
-  if (button == 37) then
-    lmc_send_keys('A', 50)
+--lmc_set_handler("Tatarus_stick",function(button,direction)
+  --if (direction == 1) then return end
+  --if (button == 37) then
+    --lmc_send_keys('A', 50)
 
-    elseif (button == 38) then
-    lmc_send_keys('W', 50)
+    --elseif (button == 38) then
+    --lmc_send_keys('W', 50)
 
-    elseif (button == 39) then
-    lmc_send_keys('D', 50)
+    --elseif (button == 39) then
+    --lmc_send_keys('D', 50)
 
-    elseif (button == 40) then
-    lmc_send_keys('S', 50)
+    --elseif (button == 40) then
+    --lmc_send_keys('S', 50)
     --profile change key
-    elseif (button == 18) then
-    lmc_send_keys('{NUM0}', 50)
-  end
-end
+    --elseif (button == 18) then
+    --lmc_send_keys('{NUM0}', 50)
+  --end
+--end
 )
