@@ -13,7 +13,7 @@ lmc_set_handler("Tatarus_main",function(button,direction)
 
   --01
   if (button == 49) then
-    lmc_send_keys('C', 50)
+    lmc_send_keys('c', 50)
     --02
     elseif (button == 50) then
     lmc_send_keys('1', 50)
@@ -28,7 +28,7 @@ lmc_set_handler("Tatarus_main",function(button,direction)
     lmc_send_keys('4', 50)
     --06
     elseif (button == 9) then
-    lmc_send_keys('B', 50)
+    lmc_send_keys('b', 50)
     --07
     elseif (button == 81) then
     lmc_send_keys('5', 50)
@@ -43,7 +43,7 @@ lmc_set_handler("Tatarus_main",function(button,direction)
     lmc_send_keys('8', 50)
     --11 I cannot operation
     elseif (button == 240) then
-    lmc_send_keys('Z', 50)
+    lmc_send_keys('z', 50)
     --12
     elseif (button == 65) then
     lmc_send_keys('9', 50)
@@ -61,16 +61,16 @@ lmc_set_handler("Tatarus_main",function(button,direction)
     lmc_send_keys('{ESC}', 50)
     --17
     elseif (button == 90) then
-    lmc_send_keys('M', 50)
+    lmc_send_keys('m', 50)
     --18
     elseif (button == 88) then
-    lmc_send_keys('I', 50)
+    lmc_send_keys('i', 50)
     --19
     elseif (button == 67) then
     lmc_send_keys(' ', 50)
     --20
     elseif (button == 32) then
-    lmc_send_keys('Z', 50)
+    lmc_send_keys('z', 50)
   end
 end
 )
